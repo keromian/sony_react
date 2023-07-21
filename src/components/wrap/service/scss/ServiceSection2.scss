@@ -1,0 +1,272 @@
+#serviceSection2{
+    width: 100%;
+    min-width: 1200px;
+
+    .container{
+        width: 100%;
+        
+        .gap{
+            width: 100%;
+            .content{
+                width: 100%;
+                margin: 80px 0 0 0;
+                .nav{
+                    width: 100%;
+                    text-align: center;
+                    button{
+                        cursor: pointer;
+                        padding: 8px 24px;
+                        background: #fff;
+                        border: 1px solid #ddd;
+                        color: #888;
+                        font-size: 16px;
+                        font-weight: 700;
+                        border-radius: 20px;
+                        letter-spacing: -0.4px;
+                        line-height: 1.4;
+                        margin: 0 0 0 10px;
+                        transition: all 0.3s;
+                        &:first-child{
+                            margin: 0;
+                        }
+                        &.on{
+                            background-color: #5865F5;
+                            color: #fff;
+                            border-color: #5865F5;
+                        }
+                        &:hover{
+                            background-color: #5865F5;
+                            color: #fff;
+                            border-color: #5865F5;
+                        }
+                    }
+                }
+                .notice1{
+                    width: 100%;
+                    max-width: 1000px;
+                    margin: 60px auto;
+                    &.on{
+                        overflow: visible;
+                        height: auto;
+                    }
+                    ul{
+                        width: 100%;
+                        border-top: 2px solid #000;
+                        li{
+                            width: 100%;
+                            border-bottom: 1px solid #ddd;
+                            >a{
+                                cursor: pointer;
+                                position: relative;
+                                display: block;
+                                
+                                dl{
+                                    display: flex;
+                                    padding: 24px 56px 24px 0;
+                                    dt{
+                                        width: 180px;
+                                        text-align: center;
+                                        color: #888;
+                                        font-weight: 700;
+                                        
+                                    }
+                                    dd{
+                                        display: flex;
+                                        align-items: center;                                        
+                                        color: #444;
+                                        font-size: 16px;
+                                        font-weight: 700;
+                                        em{
+                                            margin: 0 10px 0 0;
+                                        }
+                                        span{
+                                            position: absolute;
+                                            right: 56px;
+                                            img{
+                                                width: 18px;
+                                                transition: all 0.3s;
+                                            }
+                                        }
+                                        
+                                    }
+                                }
+                                .inner{
+                                    display: none;
+                                    padding: 24px 32px 24px 212px;
+                                    background: #f1f1f1;
+                                    p{
+                                        width: 700px;
+                                        color: #666;
+                                        font-weight: 700;
+                                        line-height: 1.5;
+                                    }
+                                }
+                                &.on{
+                                    .inner{
+                                        display: flex;
+                                        flex-flow: row wrap;
+                                    }
+                                    dl{
+                                        dd{
+                                            span{
+                                                img{
+                                                    transform: rotate(180deg);
+                                                }
+                                            }
+                                        }
+                                    }
+                                    
+                                }
+                            }
+                            
+                        }
+                    }
+                    
+                }
+                .expand{
+                    margin: 0 auto 60px auto;
+                    text-align: center;
+                    width: 66px;
+                    button{
+                        cursor: pointer;
+                        border: 0;
+                        background: none;
+                        font-size: 17px;
+                        font-weight: 700;
+                    }
+                    
+                }
+                .notice2{
+                    position: relative;
+                    width: 100%;
+                    height: 350px;
+                    max-width: 1200px;
+                    margin: 60px auto 250px auto;
+                    dl{
+                        width: 100%;
+                        dt{
+                            width: 100%;
+                            display: flex;
+                            border-top: 2px solid #000;
+                            border-bottom: 1px solid #ddd;
+                            background-color: #fafafa;
+                            padding: 21px 0;
+                            span{
+                                display: block;
+                                text-align: center;
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: #222;
+                                &:nth-child(1){
+                                    width: 120px;
+                                }
+                                &:nth-child(2){
+                                    width: 760px;
+                                }
+                                &:nth-child(3){
+                                    width: 200px;
+                                }
+                                &:nth-child(4){
+                                    width: 120px;
+                                }
+                            }
+                            
+                        }
+                        >a{
+                            dd{
+                                width: 100%;   
+                                display: flex;  
+                                text-align: center; 
+                                padding: 21px 0;     
+                                border-bottom: 1px solid #ddd;                     
+                                span{
+                                    display: block;
+                                    font-size: 16px;                                
+                                    color: #222;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    &:nth-child(1){
+                                        width: 120px;
+                                    }
+                                    &:nth-child(2){
+                                        width: 760px;
+                                        text-align: left;
+                                        font-weight: 900;
+                                    }
+                                    &:nth-child(3){
+                                        width: 200px;
+                                        color: #888;
+                                        
+                                    }
+                                    &:nth-child(4){
+                                        width: 120px;
+                                        color: #888;
+                                    }
+                                }
+                                
+                            }
+                        }
+                        
+                    }
+                    .page-button-box{
+                        position: absolute;
+                        top: 450px;
+                        width:100%;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        
+                        a {
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            width:30px;
+                            height:30px;
+                            color:#333;
+                            font-size: 14px;
+                            border:1px solid #ccc;
+                            margin: 0 5px;
+                            cursor: pointer;
+                            background: #fff;
+                            &.on{ // 현재 클릭된버튼 또는 현재버튼 current
+                                background-color: #222;
+                                border-color:#222;
+                                color:#fff;
+                            }
+                        }
+                        .prev-btn-box{
+                            width: 30px;
+                            height: 30px;
+                            margin: 0 25px 0 0;
+                        }
+                        .next-btn-box{
+                            width: 30px;
+                            height: 30px;
+                            margin: 0 0 0 15px;
+                        }
+                    }
+                    .write-btn{
+                        width: 100%;
+                        text-align: right;
+                        padding: 20px 0 0 0;
+                        position: relative;
+                        z-index: 2;
+                        button{
+                            cursor: pointer;
+                            background: #000;
+                            color: #fff;
+                            border: 0;
+                            padding: 18px;
+                            font-size: 18px;
+                            width: 150px;
+                            height: 64px;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

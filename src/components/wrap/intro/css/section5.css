@@ -1,0 +1,34 @@
+#introSection5 {
+  width: 100%;
+  min-width: 1903px;
+  height: 440px;
+  background: #f4f4f4 url(../../../../../public/img/intro/03_PC_AA_Banner.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+#introSection5 .container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+#introSection5 .container .gap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#introSection5 .container .gap .content {
+  padding: 170px 0;
+}
+#introSection5 .container .gap .content h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 20px 0;
+}
+#introSection5 .container .gap .content a {
+  color: #222;
+  font-size: 20px;
+  font-weight: 700;
+}

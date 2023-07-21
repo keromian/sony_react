@@ -1,0 +1,71 @@
+#introSection4{
+    width: 100%;
+    min-width: 1903px;
+    padding: 0 0 116px 0;
+    background: #f4f4f4;
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        .gap{
+            width: 100%;
+            .title{
+                width: 100%;
+                text-align: center;
+                background: #fff;
+                padding: 0 0 42px 0;
+                h2{
+                    color: #222;
+                    font-size: 48px;
+                    font-weight: 700;
+                }
+            }
+            .content{
+                width: 100%;
+                ul{
+                    width: 100%;
+                    display: flex;
+                    li{
+                        width: 25%;
+                        position: relative;
+                        transition: all 0.3s;
+                        border-right: 1px solid #ddd;
+                        &:hover{
+                            background-color: #ddd;
+                            .img-box{
+                                img{
+                                    transform: translate(0, 50px);
+                                }
+                            }    
+                            .txt-box{
+                                h3{
+                                    text-decoration: underline;
+                                }
+                            }                      
+                        }
+                        .img-box{
+                            width: 100%;
+                            position: absolute;
+                            overflow: hidden;
+                            display: flex;
+                            justify-content: center;
+                            img{
+                                transform: translate(150px, 50px);
+                                transition: all 0.3s;
+                                
+                            }
+                        }
+                        .txt-box{
+                            padding: 516px 48px 48px 48px;
+                            text-align: center;
+                            h3{
+                                color: #222;
+                                font-size: 28px;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

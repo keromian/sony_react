@@ -1,0 +1,66 @@
+#introSection4 {
+  width: 100%;
+  min-width: 1903px;
+  padding: 0 0 116px 0;
+  background: #f4f4f4;
+}
+#introSection4 .container {
+  width: 100%;
+  margin: 0 auto;
+}
+#introSection4 .container .gap {
+  width: 100%;
+}
+#introSection4 .container .gap .title {
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  padding: 0 0 42px 0;
+}
+#introSection4 .container .gap .title h2 {
+  color: #222;
+  font-size: 48px;
+  font-weight: 700;
+}
+#introSection4 .container .gap .content {
+  width: 100%;
+}
+#introSection4 .container .gap .content ul {
+  width: 100%;
+  display: flex;
+}
+#introSection4 .container .gap .content ul li {
+  width: 25%;
+  position: relative;
+  transition: all 0.3s;
+  border-right: 1px solid #ddd;
+}
+#introSection4 .container .gap .content ul li:hover {
+  background-color: #ddd;
+}
+#introSection4 .container .gap .content ul li:hover .img-box img {
+  transform: translate(0, 50px);
+}
+#introSection4 .container .gap .content ul li:hover .txt-box h3 {
+  text-decoration: underline;
+}
+#introSection4 .container .gap .content ul li .img-box {
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+#introSection4 .container .gap .content ul li .img-box img {
+  transform: translate(150px, 50px);
+  transition: all 0.3s;
+}
+#introSection4 .container .gap .content ul li .txt-box {
+  padding: 516px 48px 48px 48px;
+  text-align: center;
+}
+#introSection4 .container .gap .content ul li .txt-box h3 {
+  color: #222;
+  font-size: 28px;
+  font-weight: 700;
+}

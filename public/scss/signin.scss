@@ -1,0 +1,246 @@
+#signin{
+    width: 100%;
+    padding: 80px 0 0 0;
+    .container{
+        width: 588px;
+        margin: 0 auto;
+        padding: 160px 0;
+        .gap{
+            width: 100%;
+            .title{
+                margin: 0 0 40px 0;
+                ul{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    li{
+                        width: 50%;
+                        text-align: center;
+                        button{
+                            cursor: pointer;
+                            color: #222;
+                            font-size: 32px;
+                            background: 0;
+                            border: 0;
+                            letter-spacing: -1px;
+                            font-weight: 700;
+                            line-height: 1.5;
+                            border-bottom: 4px solid transparent;
+                            &.on{
+                                border-color: #000;
+                            }
+                        }
+                    }
+                }
+            }
+            .content{
+                .row1{
+                    form{
+                        width: 100%;
+                        ul{
+                            width: 100%;
+                            display: flex;
+                            flex-flow: row wrap;
+                            justify-content: space-between;
+                            li{
+                                width: 100%;
+                                overflow: hidden;
+                                position: relative;
+                                border-bottom: 1px solid #e1e1e1;
+                                &:nth-child(4),&:nth-child(5){
+                                    width: 49%;
+                                }
+                                &:nth-child(6){
+                                    border-bottom: 1px solid #e1e1e1;
+                                    height: 74px;
+                                    padding: 35px 0 20px 0;
+                                    label{
+                                        
+                                        input{
+                                            margin: 0 5px 0 60px;
+                                            &:nth-child(2){
+                                                margin: 0 5px 0 15px;
+                                            }
+                                        }
+                                        span{
+                                            top:0;
+                                        }
+                                    }
+                                }
+                                
+                                label{
+                                    width: 100%;
+                                    position: relative;
+                                    display: flex;
+                                    align-items: center;
+                                    input[type=text],[type=password]{
+                                        width: 100%;
+                                        height: 74px;
+                                        padding: 45px 0 20px 0;
+                                        font-size: 18px;
+                                        color: #222;
+                                        font-weight: 700;
+                                        line-height: 24px;
+                                        background: #fff;
+                                        border: 0;
+                                        // border-bottom: 1px solid #e1e1e1;
+                                        
+                                        
+                                        &:focus{
+                                            outline: 0;
+                                            // animation: line 0.3s both;
+                                            // border-bottom: 2px solid #5865f5;
+                                        }
+                                    }
+                                    span{
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 0;
+                                        font-size: 17px;
+                                        color: #888;
+                                        font-weight: 600;
+                                        pointer-events: none;
+                                        transition: all 0.3s;
+                                        em{
+                                            color: #bbb;
+                                            font-size: 14px;
+                                            font-weight: 400;
+                                        }
+                                        &.on{
+                                            font-size: 14px;
+                                            top: 15%;
+                                            em{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                    input[type=radio]{
+                                        width: 20px;
+                                        height: 20px;
+                                        appearance: none;
+                                        border: 1px solid #e1e1e1;
+                                        border-radius: 50%;
+                                        &:checked{
+                                            border:5px solid #222;
+                                        }
+                                        
+                                    }
+                                }
+                                &::after{
+                                    content: '';
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    width: 0;
+                                    height: 2px;
+                                    transition: all 0.3s;
+                                }
+                                &.on{
+                                    &::after{
+                                        width: 100%;
+                                        background: #5865f5;
+                                    }
+                                    label{
+                                        span{
+                                            font-size: 14px;
+                                            top: 15%;
+                                            em{
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .btn-box{
+                            margin: 40px 0 0 0;
+                            width: 100%;
+                            text-align: center;
+                            button{
+                                width: 100%;
+                                border: 0;
+                                background: #ccc;
+                                color: #fff;
+                                font-size: 18px;
+                                font-weight: 600;
+                                height: 64px;
+                                pointer-events: none;
+                            }
+                            &.on{
+                                button{
+                                    cursor: pointer;
+                                    pointer-events: auto;
+                                    background-color: #222;
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+                .row2{
+                    .or{
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        padding: 30px 0;
+                        h4{
+                            text-align: center;
+                            width: 40px;
+                            line-height: 1.8;
+                            color: #bbb;
+                            font-size: 12px;
+                            background: #fff;
+                        }
+                        span{
+                            position: absolute;
+                            z-index: -1;
+                            top: 50%;
+                            left: 0;
+                            width: 100%;
+                            height: 1px;
+                            background: #bbb;
+                        }
+                    }
+                    .content-box{
+                        display: flex;
+                        justify-content: space-between;
+                        .left{
+                            h2{
+                                color: #222;
+                                font-size: 16px;
+                                line-height: 1.4;
+                                font-weight: 700;
+                            }
+                        }
+                        .right{
+                            ul{
+                                display: flex;
+                                li{
+                                    text-align: center;
+                                    margin: 0 20px 0 0;
+                                    &:nth-child(2){
+                                        margin: 0;
+                                    }
+                                    figure{
+                                        img{
+                                            width: 48px;
+                                            height: 48px;
+                                        }
+                                    }
+                                    h3{
+                                        margin: 10px 0 0 0;
+                                        font-size: 12px;
+                                        color: #444;
+                                        font-weight: 700;
+                                    }
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

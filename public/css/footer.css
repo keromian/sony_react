@@ -1,0 +1,168 @@
+#footer {
+  width: 100%;
+  min-width: 1903px;
+  padding: 0 0 64px 0;
+  background: #000;
+}
+#footer .container {
+  width: 100%;
+}
+#footer .container .gap {
+  width: 100%;
+}
+#footer .container .gap .content {
+  width: 100%;
+  padding: 100px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer .container .gap .content .left-box .row1 {
+  width: 100%;
+}
+#footer .container .gap .content .left-box .row1 ul {
+  display: flex;
+}
+#footer .container .gap .content .left-box .row1 ul li {
+  margin: 0 15px 0 0;
+}
+#footer .container .gap .content .left-box .row1 ul li a {
+  color: #bbb;
+  font-size: 16px;
+  line-height: 1.5;
+}
+#footer .container .gap .content .left-box .row1 ul li a.on {
+  font-weight: 700;
+}
+#footer .container .gap .content .left-box .row2 {
+  width: 100%;
+  margin: 21px 0 0 0;
+}
+#footer .container .gap .content .left-box .row2 p {
+  color: #bbb;
+  font-size: 12px;
+  letter-spacing: -0.3px;
+  margin: 10px 0 0 0;
+}
+#footer .container .gap .content .left-box .row2 ul {
+  display: flex;
+}
+#footer .container .gap .content .left-box .row2 ul li {
+  margin: 0 8px;
+}
+#footer .container .gap .content .left-box .row2 ul li a {
+  color: #888;
+  font-size: 12px;
+}
+#footer .container .gap .content .left-box .row2 ul li a h4 {
+  display: inline-flex;
+  text-decoration: underline;
+}
+#footer .container .gap .content .left-box .row3 {
+  width: 100%;
+  margin: 21px 0 0 0;
+}
+#footer .container .gap .content .left-box .row3 p {
+  font-size: 14px;
+  color: #888;
+  margin: 10px 0 0 0;
+}
+#footer .container .gap .content .right-box {
+  width: 560px;
+}
+#footer .container .gap .content .right-box .row1 {
+  width: 100%;
+  display: flex;
+}
+#footer .container .gap .content .right-box .row1 .row1-title {
+  color: #bbb;
+  font-size: 24px;
+  font-weight: 700;
+}
+#footer .container .gap .content .right-box .row1 ul {
+  display: flex;
+  margin: 0 0 0 40px;
+}
+#footer .container .gap .content .right-box .row1 ul li {
+  margin: 0 0 0 40px;
+}
+#footer .container .gap .content .right-box .row1 ul li a img {
+  filter: grayscale(1) brightness(1.75);
+  transition: all 0.3s;
+}
+#footer .container .gap .content .right-box .row1 ul li a img:hover {
+  filter: none;
+}
+#footer .container .gap .content .right-box .row2 {
+  margin: 40px 0 0 0;
+  position: relative;
+}
+#footer .container .gap .content .right-box .row2 .btn-box button {
+  position: relative;
+  width: 276px;
+  background: #222;
+  color: #888;
+  font-size: 14px;
+  padding: 16px;
+  border: 0;
+  text-align: left;
+  margin: 0 8px 0 0;
+  cursor: pointer;
+}
+#footer .container .gap .content .right-box .row2 .btn-box button:last-child {
+  margin: 0;
+}
+#footer .container .gap .content .right-box .row2 .btn-box button span {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+}
+#footer .container .gap .content .right-box .row2 .btn-box button span.arrow1 {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #888;
+}
+#footer .container .gap .content .right-box .row2 .btn-box button span.arrow2 {
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #888;
+}
+#footer .container .gap .content .right-box .row2 .inner {
+  position: absolute;
+  top: -410px;
+  background: #222;
+  color: #888;
+  width: 276px;
+  padding: 16px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s;
+}
+#footer .container .gap .content .right-box .row2 .inner.on {
+  visibility: visible;
+  opacity: 1;
+}
+#footer .container .gap .content .right-box .row2 .inner > div h3 {
+  margin: 0 0 8px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+#footer .container .gap .content .right-box .row2 .inner > div ul li {
+  padding: 5px 0;
+}
+#footer .container .gap .content .right-box .row2 .inner > div ul li a {
+  color: #888;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+  transition: all 0.3s;
+}
+#footer .container .gap .content .right-box .row2 .inner > div ul li a:hover {
+  color: #3859F2;
+}
+#footer .container .gap .content .right-box .row2 .inner .inner-bottom {
+  margin: 24px 0 0 0;
+}

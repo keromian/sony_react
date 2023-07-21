@@ -1,0 +1,121 @@
+#signup{
+    width: 100%;
+    margin: 80px 0 0 0;
+    .container{
+        width: 588px;
+        margin: 0 auto;
+        padding: 160px 0 ;
+        .gap{
+            .title{
+                text-align: center;
+                h1{
+                    color: #222;
+                    font-size: 32px;
+                    font-weight: 700;
+                    margin: 0 0 14px 0;
+                }
+                >p{
+                    line-height: 1.3;
+                    color: #888;
+                    font-size: 16px;
+                }
+                button{
+                    cursor: pointer;
+                    width: 100%;
+                    height: 64px;
+                    background: #222;
+                    color: #fff;
+                    border-radius: 8px;
+                    border: 0;
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin: 40px 0;
+                }
+            }
+            .content{
+                width: 100%;
+                
+                .or{
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    padding: 30px 0;
+                    h4{
+                        text-align: center;
+                        width: 40px;
+                        line-height: 1.8;
+                        color: #bbb;
+                        font-size: 12px;
+                        background: #fff;
+                    }
+                    span{
+                        position: absolute;
+                        z-index: -1;
+                        top: 50%;
+                        left: 0;
+                        width: 100%;
+                        height: 1px;
+                        background: #bbb;
+                    }
+                }
+                .content-box{
+                    display: flex;
+                    justify-content: space-between;
+                    .left{
+                        h2{
+                            color: #222;
+                            font-size: 16px;
+                            line-height: 1.4;
+                            font-weight: 700;
+                        }
+                    }
+                    .right{
+                        ul{
+                            display: flex;
+                            li{
+                                text-align: center;
+                                margin: 0 20px 0 0;
+                                &:nth-child(2){
+                                    margin: 0;
+                                }
+                                figure{
+                                    img{
+                                        width: 48px;
+                                        height: 48px;
+                                    }
+                                }
+                                h3{
+                                    margin: 10px 0 0 0;
+                                    font-size: 12px;
+                                    color: #444;
+                                    font-weight: 700;
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+                .bottom{
+                    margin: 80px 0 0 0;
+                    background: #fbfbfb;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+                    p{
+                        display: flex;
+                        align-items: center;
+                        color: #888;
+                        font-size: 12px;
+                        strong{
+                            color: #444;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}

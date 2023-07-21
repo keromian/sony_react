@@ -1,0 +1,247 @@
+#serviceSection2 {
+  width: 100%;
+  min-width: 1200px;
+}
+#serviceSection2 .container {
+  width: 100%;
+}
+#serviceSection2 .container .gap {
+  width: 100%;
+}
+#serviceSection2 .container .gap .content {
+  width: 100%;
+  margin: 80px 0 0 0;
+}
+#serviceSection2 .container .gap .content .nav {
+  width: 100%;
+  text-align: center;
+}
+#serviceSection2 .container .gap .content .nav button {
+  cursor: pointer;
+  padding: 8px 24px;
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #888;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 20px;
+  letter-spacing: -0.4px;
+  line-height: 1.4;
+  margin: 0 0 0 10px;
+  transition: all 0.3s;
+}
+#serviceSection2 .container .gap .content .nav button:first-child {
+  margin: 0;
+}
+#serviceSection2 .container .gap .content .nav button.on {
+  background-color: #5865F5;
+  color: #fff;
+  border-color: #5865F5;
+}
+#serviceSection2 .container .gap .content .nav button:hover {
+  background-color: #5865F5;
+  color: #fff;
+  border-color: #5865F5;
+}
+#serviceSection2 .container .gap .content .notice1 {
+  width: 100%;
+  max-width: 1000px;
+  margin: 60px auto;
+}
+#serviceSection2 .container .gap .content .notice1.on {
+  overflow: visible;
+  height: auto;
+}
+#serviceSection2 .container .gap .content .notice1 ul {
+  width: 100%;
+  border-top: 2px solid #000;
+}
+#serviceSection2 .container .gap .content .notice1 ul li {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a {
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a dl {
+  display: flex;
+  padding: 24px 56px 24px 0;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a dl dt {
+  width: 180px;
+  text-align: center;
+  color: #888;
+  font-weight: 700;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a dl dd {
+  display: flex;
+  align-items: center;
+  color: #444;
+  font-size: 16px;
+  font-weight: 700;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a dl dd em {
+  margin: 0 10px 0 0;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a dl dd span {
+  position: absolute;
+  right: 56px;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a dl dd span img {
+  width: 18px;
+  transition: all 0.3s;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a .inner {
+  display: none;
+  padding: 24px 32px 24px 212px;
+  background: #f1f1f1;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a .inner p {
+  width: 700px;
+  color: #666;
+  font-weight: 700;
+  line-height: 1.5;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a.on .inner {
+  display: flex;
+  flex-flow: row wrap;
+}
+#serviceSection2 .container .gap .content .notice1 ul li > a.on dl dd span img {
+  transform: rotate(180deg);
+}
+#serviceSection2 .container .gap .content .expand {
+  margin: 0 auto 60px auto;
+  text-align: center;
+  width: 66px;
+}
+#serviceSection2 .container .gap .content .expand button {
+  cursor: pointer;
+  border: 0;
+  background: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+#serviceSection2 .container .gap .content .notice2 {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  max-width: 1200px;
+  margin: 60px auto 250px auto;
+}
+#serviceSection2 .container .gap .content .notice2 dl {
+  width: 100%;
+}
+#serviceSection2 .container .gap .content .notice2 dl dt {
+  width: 100%;
+  display: flex;
+  border-top: 2px solid #000;
+  border-bottom: 1px solid #ddd;
+  background-color: #fafafa;
+  padding: 21px 0;
+}
+#serviceSection2 .container .gap .content .notice2 dl dt span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+}
+#serviceSection2 .container .gap .content .notice2 dl dt span:nth-child(1) {
+  width: 120px;
+}
+#serviceSection2 .container .gap .content .notice2 dl dt span:nth-child(2) {
+  width: 760px;
+}
+#serviceSection2 .container .gap .content .notice2 dl dt span:nth-child(3) {
+  width: 200px;
+}
+#serviceSection2 .container .gap .content .notice2 dl dt span:nth-child(4) {
+  width: 120px;
+}
+#serviceSection2 .container .gap .content .notice2 dl > a dd {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding: 21px 0;
+  border-bottom: 1px solid #ddd;
+}
+#serviceSection2 .container .gap .content .notice2 dl > a dd span {
+  display: block;
+  font-size: 16px;
+  color: #222;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#serviceSection2 .container .gap .content .notice2 dl > a dd span:nth-child(1) {
+  width: 120px;
+}
+#serviceSection2 .container .gap .content .notice2 dl > a dd span:nth-child(2) {
+  width: 760px;
+  text-align: left;
+  font-weight: 900;
+}
+#serviceSection2 .container .gap .content .notice2 dl > a dd span:nth-child(3) {
+  width: 200px;
+  color: #888;
+}
+#serviceSection2 .container .gap .content .notice2 dl > a dd span:nth-child(4) {
+  width: 120px;
+  color: #888;
+}
+#serviceSection2 .container .gap .content .notice2 .page-button-box {
+  position: absolute;
+  top: 450px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#serviceSection2 .container .gap .content .notice2 .page-button-box a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: #333;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+  cursor: pointer;
+  background: #fff;
+}
+#serviceSection2 .container .gap .content .notice2 .page-button-box a.on {
+  background-color: #222;
+  border-color: #222;
+  color: #fff;
+}
+#serviceSection2 .container .gap .content .notice2 .page-button-box .prev-btn-box {
+  width: 30px;
+  height: 30px;
+  margin: 0 25px 0 0;
+}
+#serviceSection2 .container .gap .content .notice2 .page-button-box .next-btn-box {
+  width: 30px;
+  height: 30px;
+  margin: 0 0 0 15px;
+}
+#serviceSection2 .container .gap .content .notice2 .write-btn {
+  width: 100%;
+  text-align: right;
+  padding: 20px 0 0 0;
+  position: relative;
+  z-index: 2;
+}
+#serviceSection2 .container .gap .content .notice2 .write-btn button {
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border: 0;
+  padding: 18px;
+  font-size: 18px;
+  width: 150px;
+  height: 64px;
+}

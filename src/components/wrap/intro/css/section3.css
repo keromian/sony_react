@@ -1,0 +1,100 @@
+#introSection3 {
+  width: 100%;
+  min-width: 1903px;
+  padding: 116px 24px;
+}
+#introSection3 .container {
+  width: 100%;
+  margin: 0 auto;
+}
+#introSection3 .container .gap {
+  width: 100%;
+}
+#introSection3 .container .gap .title {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 42px 0;
+}
+#introSection3 .container .gap .title h2 {
+  color: #222;
+  font-size: 48px;
+  font-weight: 700;
+}
+#introSection3 .container .gap .content {
+  width: 100%;
+}
+#introSection3 .container .gap .content .row1 {
+  width: 100%;
+}
+#introSection3 .container .gap .content .row1 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFF4D8;
+}
+#introSection3 .container .gap .content .row1 a .text-box1 {
+  display: block;
+}
+#introSection3 .container .gap .content .row1 a .text-box1 h3 {
+  color: #222;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 8px 0;
+}
+#introSection3 .container .gap .content .row1 a .text-box1 p {
+  color: #666;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -1.5px;
+}
+#introSection3 .container .gap .content .row1 a .img-box1 img {
+  width: 500px;
+  transition: all 0.3s;
+}
+#introSection3 .container .gap .content .row1 a .img-box1 img:hover {
+  transform: scale(1.1);
+}
+#introSection3 .container .gap .content .row2 {
+  width: 100%;
+  margin: 24px 0 40px 0;
+}
+#introSection3 .container .gap .content .row2 ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#introSection3 .container .gap .content .row2 ul li a {
+  position: relative;
+}
+#introSection3 .container .gap .content .row2 ul li a:hover .img-box2 img {
+  transform: scale(1.1);
+}
+#introSection3 .container .gap .content .row2 ul li a .text-box2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 50px;
+}
+#introSection3 .container .gap .content .row2 ul li a .text-box2 h3 {
+  color: #222;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 8px 0;
+}
+#introSection3 .container .gap .content .row2 ul li a .text-box2 p {
+  color: #666;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -1.5px;
+}
+#introSection3 .container .gap .content .row2 ul li a .img-box2 {
+  overflow: hidden;
+}
+#introSection3 .container .gap .content .row2 ul li a .img-box2 img {
+  width: 100%;
+  transition: all 0.3s;
+}
