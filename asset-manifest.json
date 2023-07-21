@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sony_react/static/css/main.b1d7edd6.css",
+    "main.js": "/sony_react/static/js/main.d4435962.js",
+    "static/media/03_PC_AA_Banner.png": "/sony_react/static/media/03_PC_AA_Banner.abe022f769fe73712143.png",
+    "static/media/01_렌즈교환식카메라.jpg": "/sony_react/static/media/01_렌즈교환식카메라.90c7fc961a22339359e1.jpg",
+    "static/media/02_컴팩트카메라.jpg": "/sony_react/static/media/02_컴팩트카메라.a294e5aa97a3c3ccd7ce.jpg",
+    "static/media/bg_cat_camera.jpg": "/sony_react/static/media/bg_cat_camera.72f81d816f6311cdbc4f.jpg",
+    "index.html": "/sony_react/index.html",
+    "main.b1d7edd6.css.map": "/sony_react/static/css/main.b1d7edd6.css.map",
+    "main.d4435962.js.map": "/sony_react/static/js/main.d4435962.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1d7edd6.css",
+    "static/js/main.d4435962.js"
+  ]
+}
